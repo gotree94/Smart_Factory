@@ -7,6 +7,69 @@
 
 ---
 
+# 🛠️ 커리큘럼 사용 프로그램 및 개발 환경
+
+## 1. 3D CAD 및 기구 설계 (Part 1)
+* **Autodesk Fusion 360**
+  * **역할:** 3D 기계 모델링, 파라메트릭 스케치, 돌출/회전, 파트 조립 및 STEP 파일 관리.
+  * **라이선스:** 비상업용/취미용(1년 단위 갱신) 및 교육용 라이선스 활용.
+* **Blender**
+  * **역할:** CAD 파일(DA/STEP)을 Unity 호환 FBX 포맷으로 변환하고, 관절의 회전 중심축(Pivot) 및 계층 구조(Hierarchy)를 재설정하는 포터블 3D 도구.
+* **3D 프린터 슬라이싱 소프트웨어 (선택 사항)**
+  * **역할:** 물리적 시제품 제작 및 구조 검증을 위한 STL/STEP 파일 내보내기 검토.
+
+## 2. PLC 및 산업용 자동화 (Part 2, 5, 10)
+* **LS Electric XG5000**
+  * **역할:** LS일렉트릭 PLC 하드웨어 프로그래밍 환경 (래더 다이어그램(LD) 구성 및 파라미터 설정).
+* **LS Electric XP-Builder**
+  * **역할:** HMI(인간-기계 인터페이스) 화면 디자인, 레이아웃 구성 및 모니터링 UI 제작.
+* **CODESYS (Controller Development System)**
+  * **역할:** 국제 표준(IEC 61131-3) SoftPLC 개발 환경으로, LD, ST, FBD, SFC 및 CODESYS SoftMotion 지원.
+
+## 3. 프로그래밍 언어 및 2D 시뮬레이션 (Part 3)
+* **Microsoft Visual Studio / Visual Studio Code**
+  * **역할:** C# 및 Python 개발을 위한 주력 통합 개발 환경(IDE).
+* **C# (.NET / WinForms 또는 WPF)**
+  * **역할:** 2D 가상 테스트 키트 개발, 아날로그 I/O 모사 시뮬레이터(MFC 시뮬레이션), TCP/IP 이더넷 및 시리얼 통신 모듈 구현.
+
+## 4. 디지털 트윈 및 물리 시뮬레이션 (Part 4, 6, 8)
+* **Unity 3D (HDRP - 고화질 렌더링 파이프라인)**
+  * **역할:** 3D 디지털 트윈 환경 구축, 실시간 시각화, 물리 엔진(Rigidbody/Collider) 관리.
+* **Unity ML-Agents**
+  * **역할:** 기계 장치 및 컨베이어 밸런싱 제어를 위한 강화학습 프레임워크.
+* **NVIDIA Isaac Sim / Isaac Lab**
+  * **역할:** PhysX 기반 고정밀 피지컬 AI 시뮬레이션 환경으로, 고급 로보틱스, AGV/AMR 동역학 및 강화학습 훈련에 활용.
+
+## 5. 인공지능, 비전 및 VLM (Part 6, 7, 9, 11)
+* **Python 및 OpenCV**
+  * **역할:** 실시간 컴퓨터 비전 처리, 이미지 필터링 및 비디오 스트림 핸들링.
+* **YOLOv8 / YOLOv11**
+  * **역할:** 컨베이어 벨트 위 제품의 객체 감지, 트래킹 및 실시간 결함(스크래치, 크랙) 검사.
+* **Vision-Language Models (VLM) / Large Language Models (LLM)**
+  * **역할:** 시각적 설비 진단, 자연어 명령 파싱, 대화형 HMI 통합을 위한 멀티모달 AI.
+* **Stable Baselines3 / PyTorch**
+  * **역할:** 모션 최적화 및 경로 계획을 위한 심층 강화학습 알고리즘(PPO, SAC).
+
+## 6. 자율주행 내비게이션 및 관제 (Part 11)
+* **ROS 2 (Robot Operating System 2)**
+  * **역할:** 로보틱스 통신, 내비게이션 노드 및 센서 통합을 위한 미들웨어.
+* **Nav2 / 커스텀 경로 계획기**
+  * **역할:** AGV/AMR을 위한 A*, Dijkstra 및 휴리스틱 기반 동적 경로 계획 알고리즘.
+* **FMS (Fleet Management System) 시뮬레이터**
+  * **역할:** 다중 로봇 환경에서의 트래픽 제어, 우선순위 관리 및 교착 상태(Deadlock) 해소.
+
+## 7. 로컬 AI 인프라 및 보안 (Part 12)
+* **Ubuntu Linux (운영체제)**
+  * **역할:** 로컬 AI 에이전트 배포에 최적화된 운영체제 환경.
+* **NVIDIA RTX 5090 GPU**
+  * **역할:** 로컬 LLM/VLM 추론 및 강화학습을 위한 고성능 하드웨어 가속.
+* **Ollama 및 vLLM**
+  * **역할:** 보안이 중요한 공장 폐쇄망 환경을 위한 온프레미스 로컬 LLM 추론 엔진.
+* **OpenCode / Open WebUI**
+  * **역할:** 자동화된 테스트 및 코드 생성을 위한 로컬 AI 에이전트 프레임워크 및 인터페이스.
+
+---
+
 ## 📅 전체 25주 교육 일정 개요
 
 | 주차 | 파트 구분 | 모듈 명칭 | 핵심 학습 내용 |
