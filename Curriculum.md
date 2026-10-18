@@ -75,31 +75,31 @@
 
 | 주차 | 파트 구분 | 모듈 명칭 | 핵심 학습 내용 |
 | :---: | :---: | :--- | :--- |
-| **1주** | **Part 1** | Fusion 360 기초 및 모델링 5대 규칙 | 프로젝트 트리 구조, 2D 스케치/3D 돌출, 모깎기/모따기 마감 |
-| **2주** | **Part 1** | 파트 조립 및 벤더사 3D 에셋 활용 | 정렬/접합 규칙, 제조사 STEP 파일 업로드, 알루미늄 덕트 설계 |
-| **3주** | **Part 1** | 컨베이어 및 정밀 기구부 상세 모델링 | 모터 판, 샤프트, 규격품 베어링(608ZZ), 풀리 및 벨트 설계 |
-| **4주** | **Part 2** | 글로벌 PLC 생태계 분석 & 미쓰비시 GX Works3 | PLC 제조사별 특징(지멘스, 미쓰비시, 로크웰, LS), GX Works3 기초 래더 실습 |
-| **5주** | **Part 2** | 지멘스 TIA Portal & CODESYS 표준 프로그래밍 | 지멘스 S7-1200/1500 TIA Portal, IEC 61131-3 표준(CODESYS) 프로그래밍 |
-| **6주** | **Part 3** | C# 기초 및 2D 디지털 트윈 실습 | C# 문법 마스터, 타워램프, 아날로그 I/O(MFC), 통신(이더넷/바코드) 2D 구현 |
-| **7주** | **Part 4** | Unity 3D 디지털 트윈 환경 구축 | Unity/HDRP 환경, Blender FBX 포팅 및 관절 회전 중심축 분할 |
-| **8주** | **Part 4** | AI 바이브 코딩 (Vibe Coding) 기법 | ChatGPT/Claude 연동, 스크립트 자동 생성, 로봇 TCP 제어 및 반복 동작 |
-| **9주** | **Part 5** | 다중 컨베이어 PLC 로직 & 인터록 설계 | 박스 감지, 우측/좌측 이송 로직, 공정간 인터록(Interlock) 구현 |
-| **10주**| **Part 5** | HMI 화면 구성, 알람 시스템 & LLM 테스트 | HMI UI 모니터링, 예외 처리 알람 해제, 디지털 트윈 기반 가상 시운전 검증 |
-| **11주**| **Part 6** | AMR 물류 이송 & 디지털 트윈 연동 | AMR 자율주행 시뮬레이션, 물류 인계/인수(Loading/Unloading) 통신 |
-| **12주**| **Part 6** | 피지컬 AI & 심투리얼 (Sim-to-Real) 기초 | 가상 시뮬레이션-실제 하드웨어 연동, 강화학습(RL) 보상/페널티 모델 구축 |
-| **13주**| **Part 7** | VLM/LLM 기반 대화형 HMI 시스템 | Vision-Language Model 연동, 시각적 설비 상태 실시간 원인 진단 |
-| **14주**| **Part 7** | 자연어 기반 설비 멀티모달 제어 | 자연어 명령 $\rightarrow$ PLC/Unity 커맨드(Modbus/JSON) 자동 파싱 실행 |
-| **15주**| **Part 8** | NVIDIA Isaac Sim 3D 디지털 트윈 | Isaac Sim/Lab 환경, PhysX 고정밀 물리 엔진 연동 및 URDF 에셋 설정 |
-| **16주**| **Part 8** | Isaac Lab 기반 피지컬 AI 강화학습 | State/Action/Reward 설계, 정속 이송/방향 변경 페널티 최적화 모델 |
-| **17주**| **Part 9** | YOLOv8/v11 실시간 AI 비전 이상 검지 | 스크래치/크랙/이물질 데이터셋 학습 및 Bounding Box 실시간 트래킹 |
-| **18주**| **Part 9** | 비전-PLC 실시간 불량품 배출 연동 | 비전 검사 결과 $\rightarrow$ PLC Digital I/O 에어 실린더 Ejector 연동 제어 |
-| **19주**| **Part 10**| 설비 예지보전 (PdM) 시계열 AI | 모터 진동/전류/온도 시계열 데이터 수집, Autoencoder 이상 검출 |
-| **20주**| **Part 10**| RUL (잔여수명) 예측 & HMI 연동 | 설비 고장 사전 예지, RUL 예측 알고리즘 구축 및 대시보드 알람 |
-| **21주**| **Part 11**| AI 기반 AGV/AMR 동적 경로 최적화 | A*, Dijkstra, DRL 알고리즘, 실시간 장애물 회피 및 우회 경로 재계획 |
-| **22주**| **Part 11**| 다중 로봇 관제 (FMS) & 교착 상태 해소 | 복수 AMR 교착 상태(Deadlock) 검출 회피, 우선순위 트래픽 컨트롤러 |
-| **23주**| **Part 12**| 보안 온프레미스 Local AI Agent 구축 | Ubuntu/RTX 5090 기반 Ollama/vLLM 폐쇄망 구축, CLI 대화형 가상 테스트 |
-| **24주**| **Part 12**| 스마트팩토리 DX 통합 아키텍처 실습 | PLC-Unity-비전-AMR 실시간 동기화, 가상 시운전(Virtual Commissioning) |
-| **25주**| **Part 13**| **종합 캡스톤 프로젝트: 지능형 스마트팩토리** | **전 공정 통합 설계, AI 관제·제어 시스템 구축, 최종 발표 및 가상 시운전** |
+| **1주** | **Part 1** | Fusion 360 기초 및 모델링 5대 규칙 | 프로젝트 트리 구조, 2D 스케치/3D 돌출,  <br>모깎기/모따기 마감 |
+| **2주** | **Part 1** | 파트 조립 및 벤더사 3D 에셋 활용 | 정렬/접합 규칙, 제조사 STEP 파일 업로드,  <br>알루미늄 덕트 설계 |
+| **3주** | **Part 1** | 컨베이어 및 정밀 기구부 상세 모델링 | 모터 판, 샤프트, 규격품 베어링(608ZZ),  <br>풀리 및 벨트 설계 |
+| **4주** | **Part 2** | 글로벌 PLC 생태계 분석 & 미쓰비시 GX Works3 | PLC 제조사별 특징(지멘스, 미쓰비시, 로크웰, LS),  <br>GX Works3 기초 래더 실습 |
+| **5주** | **Part 2** | 지멘스 TIA Portal & CODESYS 표준 프로그래밍 | 지멘스 S7-1200/1500 TIA Portal,  <br>IEC 61131-3 표준(CODESYS) 프로그래밍 |
+| **6주** | **Part 3** | C# 기초 및 2D 디지털 트윈 실습 | C# 문법 마스터, 타워램프, 아날로그 I/O(MFC),  <br>통신(이더넷/바코드) 2D 구현 |
+| **7주** | **Part 4** | Unity 3D 디지털 트윈 환경 구축 | Unity/HDRP 환경, Blender FBX 포팅 및  <br>관절 회전 중심축 분할 |
+| **8주** | **Part 4** | AI 바이브 코딩 (Vibe Coding) 기법 | ChatGPT/Claude 연동, 스크립트 자동 생성,  <br>로봇 TCP 제어 및 반복 동작 |
+| **9주** | **Part 5** | 다중 컨베이어 PLC 로직 & 인터록 설계 | 박스 감지, 우측/좌측 이송 로직,  <br>공정간 인터록(Interlock) 구현 |
+| **10주**| **Part 5** | HMI 화면 구성, 알람 시스템 & LLM 테스트 | HMI UI 모니터링, 예외 처리 알람 해제,  <br>디지털 트윈 기반 가상 시운전 검증 |
+| **11주**| **Part 6** | AMR 물류 이송 & 디지털 트윈 연동 | AMR 자율주행 시뮬레이션,  <br>물류 인계/인수(Loading/Unloading) 통신 |
+| **12주**| **Part 6** | 피지컬 AI & 심투리얼 (Sim-to-Real) 기초 | 가상 시뮬레이션-실제 하드웨어 연동,  <br>강화학습(RL) 보상/페널티 모델 구축 |
+| **13주**| **Part 7** | VLM/LLM 기반 대화형 HMI 시스템 | Vision-Language Model 연동,  <br>시각적 설비 상태 실시간 원인 진단 |
+| **14주**| **Part 7** | 자연어 기반 설비 멀티모달 제어 | 자연어 명령 $\rightarrow$ PLC/Unity  <br>커맨드(Modbus/JSON) 자동 파싱 실행 |
+| **15주**| **Part 8** | NVIDIA Isaac Sim 3D 디지털 트윈 | Isaac Sim/Lab 환경,  <br>PhysX 고정밀 물리 엔진 연동 및 URDF 에셋 설정 |
+| **16주**| **Part 8** | Isaac Lab 기반 피지컬 AI 강화학습 | State/Action/Reward 설계,  <br>정속 이송/방향 변경 페널티 최적화 모델 |
+| **17주**| **Part 9** | YOLOv8/v11 실시간 AI 비전 이상 검지 | 스크래치/크랙/이물질 데이터셋 학습 및  <br>Bounding Box 실시간 트래킹 |
+| **18주**| **Part 9** | 비전-PLC 실시간 불량품 배출 연동 | 비전 검사 결과 $\rightarrow$ PLC Digital I/O  <br>에어 실린더 Ejector 연동 제어 |
+| **19주**| **Part 10**| 설비 예지보전 (PdM) 시계열 AI | 모터 진동/전류/온도 시계열 데이터 수집,  <br>Autoencoder 이상 검출 |
+| **20주**| **Part 10**| RUL (잔여수명) 예측 & HMI 연동 | 설비 고장 사전 예지,  <br>RUL 예측 알고리즘 구축 및 대시보드 알람 |
+| **21주**| **Part 11**| AI 기반 AGV/AMR 동적 경로 최적화 | A*, Dijkstra, DRL 알고리즘,  <br>실시간 장애물 회피 및 우회 경로 재계획 |
+| **22주**| **Part 11**| 다중 로봇 관제 (FMS) & 교착 상태 해소 | 복수 AMR 교착 상태(Deadlock) 검출 회피,  <br>우선순위 트래픽 컨트롤러 |
+| **23주**| **Part 12**| 보안 온프레미스 Local AI Agent 구축 | Ubuntu/RTX 5090 기반 Ollama/vLLM 폐쇄망 구축,  <br>CLI 대화형 가상 테스트 |
+| **24주**| **Part 12**| 스마트팩토리 DX 통합 아키텍처 실습 | PLC-Unity-비전-AMR 실시간 동기화,  <br>가상 시운전(Virtual Commissioning) |
+| **25주**| **Part 13**| **종합 캡스톤 프로젝트: 지능형 스마트팩토리** | **전 공정 통합 설계,  <br>AI 관제·제어 시스템 구축, 최종 발표 및 가상 시운전** |
 
 ---
 
